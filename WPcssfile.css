@@ -1,0 +1,125 @@
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* unvisited link */
+a:link {
+  color: #1770B3;
+}
+
+body{
+  background-image: url("images/background5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #1ecbe1;
+  font-family: oswald;
+}
+h1{
+  font-family: oswald;
+  text-decoration:
+}
+h2{
+   text-decoration:
+   font-family: oswald;
+   color: #1ecbe1;
+}
+header{
+   height: 100px;
+   background-color:     linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    );
+   background-image: /*url("images/header2.jpg");*/
+   color: #1ecbe1;
+   font-family: oswald;
+   text-align: center;
+   border: 2px solid grey;
+}
+ #main-body{
+   height:900px;
+   margin-top: 5px;
+ }
+
+/*  #sidebar{
+   height: 720px;
+   width: 7%;
+   float: left;
+   color: white;
+   border: 2px solid grey;
+   background-color: #101110;
+   background-image: url("images/sidebar2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-left: 10px;
+   font-family: oswald;
+ } */
+
+ #main{
+   height: 800px;
+   padding-left:10px;
+   color: #1ecbe1;
+   font-family: oswald;
+ }
+
+ #content{
+   height: 480px;
+   width" 78%
+   float: none;
+ }
+
+ #footer{
+   text-align: center;
+   font-family: times;
+   height: 20px;
+   padding-left: 10px;
+   padding-top: 20px;
+   margin-top: 5px;
+   color: #1ecbe1;
+ }
+
+#home{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
